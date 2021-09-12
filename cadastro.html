@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+    integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+  <title>Document</title>
+</head>
+
+<body>
+  <header id="cabecalho">
+    <nav class="navbar navbar-expand-lg navbar-light btn-light " style="background-color:#dddddd" ;>
+      <a class=" navbar-brand" href=""></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado"
+        aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+        <span class="navbar-toggler-icon "></span>
+      </button>
+      <section class="row mt-2">
+        <section class="col-sm-4 mt-2">
+          <img class=img id="logonav" src="img/reuuuseee.png" alt="">
+        </section>
+      </section>
+      <section class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+        <ul class="navbar-nav ml-auto mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html" style="color:#ffffff;  font-weight: bolder; font-size: 23px;">Home
+              <span class="sr-only">(página atual)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="quemsomos.html" style="color:#ffffff;  font-weight: bolder; font-size: 23px">Quem
+              Somos<span class="sr-only">(página
+                atual)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link " href="cadastro.html" style="color:#ffffff;  font-weight: bolder;font-size: 23px">
+              Cadastro <span class="sr-only">(página
+                atual)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="parceiros.html" style="color:#ffffff;  font-weight: bolder;font-size: 23px">
+              Parceiros <span class="sr-only">(página atual)</span></a>
+          </li>
+    </nav>
+  </header>
+<!-- formulario -->
+  <body class="cadastrobody">
+    <main class="container mb-lg-0">
+      <section id="mainContainer">
+        <h1>Seja um PEV ! Cadastre Sua Empresa Que Em Breve Entraremos Em Contato!!! </h1>
+        <form id="register">
+          <div class="fullBox">
+            <label for="name">Nome da Empresa:</label>
+            <input type="text" name="name" id="name" placeholder="Digite o seu nome completo" data-uppercase>
+          </div>
+          <div class="fullBox">
+            <label for="cpf">CNPJ:</label>
+            <input type="text" name="cpf" id="cpf" placeholder="Digite o número sem os pontos" data-maxlength="11">
+          </div>
+          <div class="quarterBox spacing">
+            <label for="telefone">Telefone/Whatsapp:</label>
+            <input type="text" name="telefone" id="telefone" placeholder="(XX) XXXXX-XXXX" data-validate-day>
+          </div>
+          <div class="halfBox spacing">
+            <label id="email" for="email">E-mail:</label>
+            <input type="email" name="email" id="email" placeholder="Digite seu e-mail" data-email>
+          </div>
+          <div class="halfBox select">
+            <label for="gender" id="estado">Estado:</label>
+            <select name="gender" id="estado" data-gender>
+              <option value="AC">Acre</option>
+              <option value="AL">Alagoas</option>
+              <option value="AP">Amapá</option>
+              <option value="AM">Amazonas</option>
+              <option value="BA">Bahia</option>
+              <option value="CE">Ceará</option>
+              <option value="DF">Distrito Federal</option>
+              <option value="ES">Espírito Santo</option>
+              <option value="GO">Goiás</option>
+              <option value="MA">Maranhão</option>
+              <option value="MT">Mato Grosso</option>
+              <option value="MS">Mato Grosso do Sul</option>
+              <option value="MG">Minas Gerais</option>
+              <option value="PA">Pará</option>
+              <option value="PB">Paraíba</option>
+              <option value="PR">Paraná</option>
+              <option value="PE">Pernambuco</option>
+              <option value="PI">Piauí</option>
+              <option value="RJ">Rio de Janeiro</option>
+              <option value="RN">Rio Grande do Norte</option>
+              <option value="RS">Rio Grande do Sul</option>
+              <option value="RO">Rondônia</option>
+              <option value="RR">Roraima</option>
+              <option value="SC">Santa Catarina</option>
+              <option value="SP">São Paulo</option>
+              <option value="SE">Sergipe</option>
+              <option value="TO">Tocantins</option>
+            </select>
+            <div id="cidade" class="fullBox">
+              <label for="cidade">Cidade:</label>
+              <input type="text" name="cidade" data-uppercase>
+              <div class="quarterBox spacing">
+
+                <div id="botao" class="fullBox">
+                  <input type="submit" id="btnSubmit" value="Enviar">
+                </div>
+        </form>
+        <div id="confirmedData">
+          <p></p>
+        </div>
+      </section>
+    </main>
+      <!-- Botao Voltar ao Topo -->
+
+      <button id="btn-topo1" style=" border: none; border-radius:50% ;"><a href="#top"><img id="scroll"
+            src="img/topo.png"></a></button>
+
+
+      <footer class="conteiner-fluid m-sm-0 ">
+
+        <section id="copyright">
+
+          <img id="mundo" class="" src="img/reuuuseee.png" alt="mundo">
+          <a href="https://www.facebook.com/grupo.petropolis" target="_blank"><img class="icones" src="img/facebook.png"
+              Salt="facebook"></a>
+          <a href="https://www.instagram.com/grupo.petropolis/?hl=pt-br" target="_blank"><img class="icones"
+              src="img/instagram.png" alt="instagram"></a>
+          <a href="https://www.linkedin.com/company/grupo-petropolis/" target="_blank"><img class="icones"
+              src="img/linkedin.png" alt="linkedin"></a>
+          <a href="https://twitter.com/grupopetropolis" target="_blank"><img class="icones" src="img/twitter.png"
+              alt="twitter"></a>
+          <a href="https://api.whatsapp.com/send?phone=5548999906699" target="blank"><img class="icones"
+              src="img/whatsapp.png" alt="Whatsapp"></a>
+          <a href="https://www.grupopetropolis.com.br/" target="_blank"><img id="petropolis"
+              src="img/header_grupopetropolis.png" alt="">
+
+        </section>
+
+      </footer>
+
+      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+        crossorigin="anonymous"></script>
+      <script src="topo.js"></script>
+  </body>
+
+</html>
