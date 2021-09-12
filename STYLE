@@ -1,0 +1,195 @@
+  /* margin: 0;
+    padding: 0; */
+
+#copyright {
+    text-align: center;
+    background-color: #DDDDDD;
+    /* background-size: 100%; */
+  
+  }
+
+
+   
+.icones {
+    /* max-width: 100%;
+    max-height:100%; */
+    width: 3vw;
+    /* margin-bottom: 4%;
+    margin-left: 2%; */
+
+}
+
+#petropolis {
+    /* max-width: 100%;
+    max-height:100%; */
+    margin-left: 10px;
+    /* margin-top: 3px; */
+    width: 40vw;
+    height: 15vh;
+    display: flexbox;
+    top: 15px;
+}
+
+#topo {
+    max-width: 100%;
+    max-height:100%;
+    width: 8vh;
+    margin-bottom: 2%;
+    margin-left: 2%;
+ 
+}
+
+.card{
+
+}
+
+#cards{
+    height: 100%;
+    width: 15vh;
+    margin: auto;
+    padding: 5px;
+    
+}
+
+body{
+    background-color: #c7cdd4;
+}
+
+ #mundo{
+    height:10vh;
+    width:5vw;
+    display: inline-block;
+    padding-right: 20%;
+
+} 
+
+#pmao{
+ height: 60vh;
+ width: 30vw ;
+ display: flex;
+ margin-left: 5%;
+}
+
+#logonav{
+  height: 100%;
+  width: 10VW;
+    
+}
+
+#scroll {
+    width: 08vh;
+
+}
+#btn-topo1 {
+    position: fixed;
+    bottom: 20px;
+    right: 25px;
+}
+/* FORM */
+
+main{
+    width: 100%;
+    height: 100%;
+}
+
+label {
+    font-weight: bold;
+    margin-left: 15px;
+}
+
+input {
+    display: block;
+    width: 100%;
+    border-radius: 15px;
+    padding: 10px;
+    margin-bottom: 40px;
+    background-color: #ebe3d8;
+}
+
+input:focus, label:focus {
+    outline: none;
+}
+
+#mainContainer {
+    width: 500px;
+    margin-top: 05px;
+    margin-bottom: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fafafa86;
+    border-radius: 10px;
+    padding: 25px;
+    box-shadow: 3px 3px 10px rgb(99 98 98);
+}
+
+#mainContainer h1 {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.fullBox {
+    flex: 1 1 100%;
+    position: relative;
+}
+
+.halfBox {
+    flex: 1 1 45%;
+    position: relative;
+}
+
+.quarterBox {
+    flex: 0 0 31.67%;
+    position: relative;
+}
+
+.spacing {
+    margin-right: 1.67%;
+}
+
+
+input[type="submit"] {
+    background: #eee8e0;
+    height: 40px;
+    cursor: pointer;
+    box-shadow: 3px 3px 10px rgb(99 98 98);
+    color: rgb(12, 12, 12);
+    margin-top: 40px;
+}
+
+input[type="submit"]:hover {
+    color: black;
+    background: white;
+}
+
+
+.select select {     
+    border-radius: 15px;
+    background-color: #f3ede5;       
+    width: 100%; 
+    height:35px; 
+    color: black;
+    text-indent: 0.01px;      
+    text-overflow: "";   
+}
+#estado {
+    margin-bottom: 20px;
+}
+#email { 
+    margin-left: 40px;
+    width: 80%;
+    
+}
+#cidade { 
+    width: 80%;
+    margin-top: 20px;
+}
+#botao{ 
+   
+    margin-left: 90px;
+}
